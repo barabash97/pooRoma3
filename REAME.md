@@ -1,1 +1,1 @@
-Corso di poo
+Corso di Programmazione orientata agli oggetti
