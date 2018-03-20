@@ -21,8 +21,15 @@ public class Punto {
 	public int getY() {
 		return this.y;
 	}
-	
+
 	public String toString() {
 		return "(" + this.getX() + ";" + this.getY() + ")";
+	}
+
+	@Override
+
+	public boolean equals(Object o) {
+		Punto p = (Punto) o;
+		return (this.getX() == p.getX() && this.getY() == p.getY());
 	}
 }

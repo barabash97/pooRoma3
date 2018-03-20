@@ -26,7 +26,7 @@ public class CerchioTest {
 		Cerchio c1 = this.oggettoIstanziato();
 		Cerchio c2 = this.oggettoIstanziato();
 		c2.trasla(0, 0);
-		assertEquals(c1.toString(), c2.toString());
+		assertEquals(c1.getCentro(), c2.getCentro());
 	}
 	
 	@Test
@@ -34,6 +34,6 @@ public class CerchioTest {
 		Cerchio c1 = this.oggettoIstanziato();
 		Cerchio c2 = this.oggettoIstanziato();
 		c2.trasla(0, 1);
-		assertNotEquals(c1.toString(), c2.toString());
+		assertNotEquals(c1.getCentro(), c2.getCentro());
 	}
 }

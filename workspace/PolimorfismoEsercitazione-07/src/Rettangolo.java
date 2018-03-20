@@ -32,7 +32,7 @@ public class Rettangolo implements Forma {
 	public void setLarghezza(int larghezza) {
 		this.larghezza = larghezza;
 	}
-	
+
 	public String toString() {
 		String stringa = new String();
 		stringa += "############  Rettangolo  ##########\n\n";
@@ -41,6 +41,12 @@ public class Rettangolo implements Forma {
 		stringa += "Vertice: " + this.getVertice().toString() + "\n";
 		stringa += "######################\n\n";
 		return stringa;
+	}
+
+	@Override
+
+	public boolean equals(Object o) {
+		return (this == o) ? true : false;
 	}
 
 }

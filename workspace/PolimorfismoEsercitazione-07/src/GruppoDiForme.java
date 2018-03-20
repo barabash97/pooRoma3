@@ -1,5 +1,6 @@
 
 public class GruppoDiForme {
+	
 	private Forma[] forme;
 	
 	public GruppoDiForme() {

@@ -28,4 +28,11 @@ public class Cerchio implements Forma {
 		stringa += "######################\n\n";
 		return stringa;
 	}
+	
+	
+	@Override
+
+	public boolean equals(Object o) {
+		return (this == o) ? true : false;
+	}
 }
